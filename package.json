@@ -1,0 +1,39 @@
+{
+  "name": "multi-wallet-tracker",
+  "version": "1.0.0",
+  "description": "Multi-wallet EVM balance monitor using Multicall3, automatic public RPC failover pools (Ethereum, Base, Arbitrum), deterministic SVG identicons, and a gas sweep calculator.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "ethereum",
+    "base",
+    "arbitrum",
+    "viem",
+    "multicall3",
+    "multi-wallet",
+    "rpc-failover",
+    "gas-sweep"
+  ],
+  "author": "LevCodeLab",
+  "license": "MIT",
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "viem": "^2.21.45"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4"
+  }
+}
